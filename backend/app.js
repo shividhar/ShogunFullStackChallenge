@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({
 
 var search = require("./search");
 
+// Pre-processing CSV once to make processing more efficient
 search.setupSearch();
 
 app.post('/', function (req, res) {
@@ -23,5 +24,5 @@ app.post('/', function (req, res) {
 })
 
 app.listen(9090, function () {
-  console.log('Example app listening on port 9090!')
+  console.log('Backend server is listening on port 9090!')
 })
