@@ -1,0 +1,6 @@
+node_modules
+client/node_modules
+
+
+# MacOS specific metadata
+.DS_Store
