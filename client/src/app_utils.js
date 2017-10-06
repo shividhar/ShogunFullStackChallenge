@@ -1,5 +1,5 @@
 export function getTableColumnHeaders(responseData) {
-  if(responseData) {
+  if(responseData.length > 0) {
     var firstElement = responseData[0];
     var tableColumnsArray = [];
 
