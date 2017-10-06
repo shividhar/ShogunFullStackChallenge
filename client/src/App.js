@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Grid from 'react-bootstrap/lib/Grid'
 import Row from 'react-bootstrap/lib/Row'
-import Col from 'react-bootstrap/lib/Col'
 import ButtonToolbar from 'react-bootstrap/lib/ButtonToolbar';
 import Button from 'react-bootstrap/lib/Button';
 import FormGroup from 'react-bootstrap/lib/FormGroup';
@@ -11,7 +10,6 @@ import Table from './Table.js';
 import {
     getTableColumnHeaders
 } from './app_utils';
-
 
 
 class App extends Component {
