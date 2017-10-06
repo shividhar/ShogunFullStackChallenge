@@ -1,6 +1,5 @@
-node_modules
-client/node_modules
-
+# Ignore every node_module folders
+node_modules/
 
 # MacOS specific metadata
 .DS_Store
